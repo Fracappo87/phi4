@@ -1,0 +1,7 @@
+#Flags definitions
+
+CC=icc
+CFLAG=  -Wall -msse3 -O2 -ipo -ansi-alias # -pg -g
+CFLAGS= -c  -Wall -msse3 -O2 -ipo -ansi-alias # -pg -g
+MM = -MM
+
