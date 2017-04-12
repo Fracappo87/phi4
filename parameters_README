@@ -1,0 +1,17 @@
+structure of parameter file
+d                dimension of the system
+Nt               t lattice extension
+Nx               x lattice extension
+Ny               y lattice extension
+Nz               z lattice extension
+d_field          dimension of the field(n of components)
+N_meas           number of measurements
+N_term           number of thermalization steps
+N_sweeps         number of sweep steps
+mass             mass parameter(free theory coupling)
+lambda           lambda parameter(phi^4 coupling)
+g                g parameter(phi^6 coupling)
+kappa            kappa parameter(phi^3 coupling)
+delta            control parameter for Metropolis
+dt               flow time integration interval
+N_steps          number of integration steps
