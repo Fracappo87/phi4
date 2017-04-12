@@ -26,15 +26,14 @@ This modules provides functions for
     
  ----------------------------------------------------------------------------------------------------------------------------
  
- 3) Observables
+3) Observables
  
 This module provides different subroutines used to compute observables built from fundamental scalar fields and fields evolved according to the gradient flow.
  ----------------------------------------------------------------------------------------------------------------------------
  
- 4) Random
+4) Random
  
-Module for the generation of pseudo random numbers: it uses the  RANLUX random number generator, written by Martin Luscher
- http://luscher.web.cern.ch/luscher/ranlux/
+Module for the generation of pseudo random numbers: it uses the  RANLUX random number generator, written by Martin Luscher http://luscher.web.cern.ch/luscher/ranlux/
  
  ----------------------------------------------------------------------------------------------------------------------------
 
