@@ -1,0 +1,6 @@
+
+static prb_ptr_t PROB_OP[11]={probe_1,probe_2,probe_3,probe_4,probe_5,probe_6,probe_7,probe_8,probe_9,probe_10,probe_11};
+
+
+static dprb_ptr_t Delta_PROB_OP[11]={delta_pr_1,delta_pr_2,delta_pr_3,delta_pr_4,delta_pr_5,delta_pr_6,delta_pr_7,delta_pr_8,delta_pr_9,delta_pr_10,delta_pr_11};
+
