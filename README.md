@@ -47,3 +47,37 @@ This is the core module: it contains routines for the generation of field config
 6) WilsonFlow
 
 Module for the evolution of field configurations along the flow: it uses a simple gaussian smearing as prescription for evolging lattice scalar fields.
+It also implement the construction of the Jacobian map from boundary fields to field configurations at positive flow time.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TESTING
+
+A directory Test has also been included: it contains a set of codes to be used for testing different modules of the program:
+
+--------------------------------------------------------------------------------------------------------------------------
+
+1) main_corr.c    
+
+This program computes field correlators.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+2) main_testJACOB.c, testJACOB.c
+
+This program check the correcteness of 4th order Runge Kutta integrator for the evolution of the Jacobian map. It computes the accumulated error due to time discretization by computing the difference between numerical and exact solution of the heat equation, as a function of time steps.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+3) main_testRK.c, testRK.c
+
+This program check the correcteness of 4th order Runge Kutta integrator for the evolution of the scalar field. It computes the accumulated error due to time discretization by computing the difference between numerical and exact solution of the heat equation, as a function of time steps.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+4) main_testMASS.c   
+
+This program is used for computing the renormalized mass of the theory (useful for check code correcteness making comparison with available measurements)
+
+
