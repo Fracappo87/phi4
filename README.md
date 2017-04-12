@@ -33,7 +33,7 @@ This module provides different subroutines used to compute observables built fro
  
  4) Random
  
- Module for the generation of pseudo random numbers: it uses the  RANLUX random number generator, written by Martin Luscher
+Module for the generation of pseudo random numbers: it uses the  RANLUX random number generator, written by Martin Luscher
  http://luscher.web.cern.ch/luscher/ranlux/
  
  ----------------------------------------------------------------------------------------------------------------------------
