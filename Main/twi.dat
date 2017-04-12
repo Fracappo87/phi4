@@ -1,0 +1,9 @@
+translation coord t = 0
+translation coord x = 0
+translation coord y = 0
+probe coord t = 0
+probe coord x = 0
+probe coord y = 0
+rhs measure = on 
+lhs measure = on 
+average block = 1
